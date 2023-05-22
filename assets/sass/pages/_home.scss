@@ -1,0 +1,19 @@
+.body_section{
+    max-width: 1440px;
+    margin: auto;
+  .famly_about{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+        img{
+            width: 40%;
+        }
+       .chose{
+        width: 40%;
+       } 
+
+
+  }  
+}

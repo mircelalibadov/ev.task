@@ -1,0 +1,124 @@
+.adopted_nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+.adopted_nav h1 {
+  width: 50%;
+}
+.adopted_nav .home {
+  display: flex;
+  gap: 10px;
+}
+.adopted_nav .home li {
+  list-style: none;
+}
+.adopted_nav .home li a {
+  text-decoration: none;
+  color: rgb(85, 75, 75);
+}
+.adopted_nav .home li a:hover {
+  color: rgb(0, 0, 0);
+}
+.adopted_nav .home li .adoption_menu {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  padding: 10px;
+}
+.adopted_nav .home li .adoption_menu li {
+  margin-top: 10px;
+}
+.adopted_nav .home li .adoption_menu li a {
+  padding: 10px;
+}
+.adopted_nav .home li .adoption_menu li a:hover {
+  background-color: rgb(188, 81, 72);
+}
+.adopted_nav .home .adoption:hover .adoption_menu {
+  display: block;
+}
+.adopted_nav .btn_click {
+  display: none;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .adopted_nav .home {
+    display: none;
+  }
+  .adopted_nav .btn_click {
+    display: block;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body_section {
+  max-width: 1440px;
+  margin: auto;
+}
+.body_section .famly_about {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.body_section .famly_about img {
+  width: 40%;
+}
+.body_section .famly_about .chose {
+  width: 40%;
+}
+
+header {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  background-color: #bc5148;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  height: 40px;
+}
+header .internet {
+  width: 50%;
+}
+header .internet a {
+  text-decoration: none;
+  color: black;
+}
+header .internet a i {
+  margin-left: 20px;
+}
+header .internet a:hover {
+  color: white;
+}
+header .btn_add .btn_1 {
+  padding: 5px;
+  background-color: #bc5148;
+  border: 0 solid;
+}
+header .btn_add .btn_1:hover {
+  color: white;
+}
+header .btn_add .btn_2 {
+  padding: 0px;
+  background-color: #f4b214;
+  border: 0 solid;
+  height: 40px;
+  padding: 10px;
+}
+header .btn_add .btn_2:hover {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
